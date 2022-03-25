@@ -14,9 +14,15 @@ const App = () => {
 
     return (
         <div>
-            <h1>Aba is King 23</h1>
-            <h2>Number: <b>{count}</b></h2>
-            <br /><br />
+            <h1>Hello👋 I'm a React app</h1>
+            <h2>I support:
+                <ul>
+                    <li>TypeScript</li>
+                    <li>Hot-Reload</li>
+                    <li>Counting ;)</li>
+                </ul>
+            </h2>
+            <h3>Number: <b>{count}</b></h3>
             <button onClick={() => increment()}>Increment</button>{' '}
             <button onClick={() => decrement()}>Decrement</button>{' '}
         </div>
